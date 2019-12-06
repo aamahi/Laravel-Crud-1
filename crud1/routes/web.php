@@ -11,10 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/signup', function(){
-    return "Sign up";
-});
+Route::get('/', 'Crud1@index');
