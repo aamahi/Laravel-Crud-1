@@ -6,10 +6,13 @@ use Illuminate\Http\Request;
 use App\crud1;
 
 class Crud extends Controller
-{
+{   
+
     public function index(){
-        return view('welcome');
+        $users = Crud1::all();
+        return view('welcome',compact('users'));
     }
+
     public function create(){
         return view('create');
     }
