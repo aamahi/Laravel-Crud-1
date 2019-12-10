@@ -13,3 +13,4 @@
 
 Route::get('/', 'Crud1@index')->name('home');
 Route::get('/create', 'Crud1@create')->name('create');
+Route::post('/create', 'Crud1@store')->name('store');
