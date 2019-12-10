@@ -32,4 +32,4 @@ Link: Disable Now.
 
 ### Update Profile Page
 
-![Update User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/update.jpg "Update page")
+![Update User Page](/crud1/READme/update.jpg "Update page")
