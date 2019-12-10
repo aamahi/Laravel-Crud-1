@@ -1,92 +1,35 @@
-# We Services
+# Frist Crud Application Usin Laravel
+This is a Normal Crud Application useing Laravel. There only Add User and Read User and Edit or Delete User information
 
-This is a marketplace application for service provider and customers. This project has three sections one for customer one for service provider and another one for super admin. Here customer can post job and service providers bid on jobs. Finally customer hire service provider. This is not online marketplace this is offline marketplace. Here customer can hire service providers like AC Repairs, Desktop Repairs, Accountants, Barbers etc. This project has lots of functionality. Among these here I am represent few of those. To know more about the project please look at the demo.
-
-## For visitors
-
-* Registrations
-* Login
-* Search jobs
-* Access blog and forums
 
 ## Customer functions
 
 Customer has many access. Such as,
-
+* Create Profile
+* Read Profile
 * Update profile
-* Change password
-* Post job
-* Select service provider and hire
-* Send and receive messages
-* Advertise
+* Change profile information
+* Delete Profile
+
 * And many more....
 
 ### Demo
 
-Link: [http://weservices.artofcse.com/user/login](http://weservices.artofcse.com/user/login)
-
-```
-    Email: user@gmail.com
-    Password: 123456
-```
-
-## Service provider functions
-
-Service providers has all funtionality of customer. Beside this service provider has many more things to do. Such as: 
-
-* Update pofile 
-* Adding work area
-* Update Work schedule 
-* Update Company information
-* Add socila media
-* Upload Porfolio
-* Post job
-* Bid on jobs
-* Hired by customer
-* Get rating form customer
-* Payment admin for premium account
-* Add refrence
-* Add education
-* And many more .....
-
-### Demo
-
-Link: [http://weservices.artofcse.com/user/login](http://weservices.artofcse.com/user/login)
-
-```
-    Email: sprovider@gmail.com
-    Password: 123456
-```
-
-## Super Admin
-
-Super admin control everythings.
-
-### Demo
-Link: [http://weservices.artofcse.com/user/admin](http://weservices.artofcse.com/user/admin)
-
-```
-Email: admin@gmail.com
-Password: 123456
-```
+Link: [http://weservices.artofcse.com/user/login](Unavailable now)
 
 # Some screenshoot of the project
 
 ### Home page
-![Home page](https://github.com/almamuncsit/projects/blob/master/weservices/home.jpg "Home page")
+![Home page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/home.png "Home page")
 
-### Service Provider Profile Page
+### Edit User Page
 
-![Service Provider Profile Page](https://github.com/almamuncsit/projects/blob/master/weservices/profile.png "Service Provider Profile Page")
+![Edit User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/edit.png "Edit User page")
 
-### Jobs
-![Jobs](https://github.com/almamuncsit/projects/blob/master/weservices/jobs.png "Jobs")
+### Add User Page
 
-### Blog
-![Blog](https://github.com/almamuncsit/projects/blob/master/weservices/blog.png "Blog")
+![Add User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/add.png "Add User page")
 
-### Backend For Service Provider
-![Backend For Service Provider](https://github.com/almamuncsit/projects/blob/master/weservices/backend.png "Backend For Service Provider")
+### Update Profile Page
 
-### Super Admin
-![Super Admin](https://github.com/almamuncsit/projects/blob/master/weservices/admin.png "Super Admin")
+![Update User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/update.jpg "Update page")
