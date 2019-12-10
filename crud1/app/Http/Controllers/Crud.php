@@ -54,4 +54,9 @@ class Crud extends Controller
         $update->save();
         return redirect()->route('home')->with('success','User Updated Sucessfully !');
      }
+     public function delete($id){
+         Crud1::find($id)->delete();
+         return redirect()->route('home')->with('success','User Deleted Sucessfully !');
+
+     }
 }

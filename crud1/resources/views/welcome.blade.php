@@ -37,6 +37,20 @@
                         <td class="text-center">
                             <a href="{{Route('edit',$user->id)}}" class="btn btn-info"><i class="fa fa-pencil"></i> Edit</a>
                             <a href="{{Route('delete',$user->id)}}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+
+                             {{-- <form method="POST" id="delete-form-{{$user->id}}" action="{{Route('delete'),$user->id}}" style="display:none">
+                                @csrf
+                                {{method_field('delete')}}
+
+                            </form>
+
+                            <button onclick="if(confirm('Are you Sure ?you want to Delete this user ?')){
+                                event.preventDefault();
+                                document.getElementById('delete-form-{{$user->id}}').submit();
+                            }else{
+                                event.PreventDefult();
+                            }
+                            " class="btn btn-danger"><i class="fa fa-trash"></i> Delete</button> --}}
                         </td>
                     </tr>
                     @endforeach
