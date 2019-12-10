@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'Crud1@index');
+Route::get('/', 'Crud1@index')->name('home');
