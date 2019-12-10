@@ -9,7 +9,7 @@ class Crud extends Controller
 {   
 
     public function index(){
-        $users = Crud1::all();
+        $users = Crud1::paginate(5);
         return view('welcome',compact('users'));
     }
 
