@@ -33,4 +33,25 @@ class Crud extends Controller
         $insert->save();
         return redirect()->route('home')->with('success','User Added Sucessfully !');
      }
+     public function edit($id){
+         $edit = Crud1::find($id);
+         return view('edit',compact('edit'));
+     }
+     public function update(Request $request,$id){
+        $rules = [
+            'frist_name' => 'required',
+            'last_name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|size:11'
+        ];
+
+        $this->validate($request,$rules); 
+        $update = Crud1::find($id);
+        $update->frist_name = $request->frist_name;
+        $update->last_name = $request->last_name;
+        $update->email = $request->email;
+        $update->phone = $request->phone;
+        $update->save();
+        return redirect()->route('home')->with('success','User Updated Sucessfully !');
+     }
 }
