@@ -20,15 +20,16 @@ Link: Disable Now.
 # Some screenshoot of the project
 
 ### Home page
-![Home page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/home.png "Home page")
+
+<img src="crud1/READme/home.png">
 
 ### Edit User Page
 
-![Edit User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/edit.png "Edit User page")
+<img src="crud1/READme/edit.png">
 
 ### Add User Page
 
-![Add User Page](https://github.com/aamahi/Laravel-Crud-1/blob/master/crud1/READme/add.png"Add User page")
+<img src="crud1/READme/add.png">
 
 ### Update Profile Page
-<img src="crud1/READme/add.png">
+<img src="crud1/READme/update.png">
