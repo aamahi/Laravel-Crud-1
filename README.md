@@ -15,7 +15,7 @@ Customer has many access. Such as,
 
 ### Demo
 
-Link: [http://weservices.artofcse.com/user/login](Unavailable now)
+Link: Disable Now.
 
 # Some screenshoot of the project
 
@@ -28,7 +28,7 @@ Link: [http://weservices.artofcse.com/user/login](Unavailable now)
 
 ### Add User Page
 
-![Add User Page](https://github.com/aamahi/Laravel-Crud-1/crud1/READme/add.png "Add User page")
+![Add User Page](https://github.com/aamahi/Laravel-Crud-1/blob/master/crud1/READme/add.png"Add User page")
 
 ### Update Profile Page
 
