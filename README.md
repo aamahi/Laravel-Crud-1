@@ -31,5 +31,4 @@ Link: Disable Now.
 ![Add User Page](https://github.com/aamahi/Laravel-Crud-1/blob/master/crud1/READme/add.png"Add User page")
 
 ### Update Profile Page
-
-![Update User Page](/crud1/READme/update.jpg "Update page")
+<img src="crud1/READme/add.png">
